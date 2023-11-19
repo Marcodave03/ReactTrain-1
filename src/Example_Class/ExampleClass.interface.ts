@@ -1,7 +1,8 @@
 export interface IExampleClassState {
-    count: number;
+    count: number,
+    darkTheme : boolean
 }
 
 export interface IExampleClassProps {
-    
+    text?:string
 }
